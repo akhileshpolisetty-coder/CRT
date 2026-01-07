@@ -8,6 +8,7 @@ li=[10,20,30,40,100]
 if 100 in li:   # membership opeartor to check iterable objects 
     print("good morning ")
 x= "hello"
-if any(vowel in x for vowel in ['a','e','i']):
+if any(vowel in x for vowel in ['a','e','i']): #
               print ("good morning")                    
-''' reference countinting if any object-> reference count>0 then the object is there  '''              
+''' reference countinting if any object-> reference count>0 then the object is there  ''' 
+print("even" if 1&7==0 else "odd")             
