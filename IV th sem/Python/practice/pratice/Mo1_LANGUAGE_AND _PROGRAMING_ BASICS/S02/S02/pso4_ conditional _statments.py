@@ -8,10 +8,14 @@ print('even' if check(n) else'odd' )
 import math 
 def prime(n):
     for i in range (2,int(math.sqrt(n))+1,1):
+        if n==2:
+            return True
         if n%i==0:
+          break
           return False
 print("prime " if prime(n) else "not prime")      
-  
+
+
 
         
     
