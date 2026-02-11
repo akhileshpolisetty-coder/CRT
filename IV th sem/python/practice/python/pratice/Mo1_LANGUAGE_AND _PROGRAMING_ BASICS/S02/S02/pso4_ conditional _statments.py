@@ -16,10 +16,4 @@ def prime(n):
         if n%i==0:
           break
           return False
-print("prime " if prime(n) else "not prime")       
-
-
-
-        
-    
-    
+print("prime " if prime(n) else "not prime") 
