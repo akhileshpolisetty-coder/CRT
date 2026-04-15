@@ -12,4 +12,9 @@ print (sum_of_digits(n))
 # alphabet question 
 ass=['a','c','d','o','x']
 print(sorted(ass))
-#coomon elements 
+# enumerated
+for inx,val in enumerate(a):
+    print(inx,val)
+
+ # second 
+print(sorted(a)[-2])   
